@@ -1,0 +1,34 @@
+{
+    "name": "multipleroomchat",
+    "version": "1.0.0",
+    "description": "chat room application for cars against humanity application",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./index.js --exec babel-node -e js",
+        "test": "1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StevenS125/multipleroomchat.git"
+    },
+    "keywords": [
+        "chatapp",
+        "socket"
+    ],
+    "author": "Steven Snyder",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/StevenS125/multipleroomchat/issues"
+    },
+    "homepage": "https://github.com/StevenS125/multipleroomchat#readme",
+    "dependencies": {
+        "express": "^4.16.2",
+        "nodemon": "^1.14.11",
+        "socket.io": "^2.0.4"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-0": "^6.24.1"
+    }
+}
